@@ -1,0 +1,42 @@
+.footer {
+    background: url("../../assets/images/footer/footer.jpg") no-repeat top center;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    margin-top: 23px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 259px;
+    padding-top: 40px;
+}
+.inner {
+    width: 752px;
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 104px;
+}
+.inner div {
+    margin-top: 15px;
+
+}
+.block a{
+    margin-left: 6px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.block h2 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.block h2::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    margin-top: 5.5px;
+}
